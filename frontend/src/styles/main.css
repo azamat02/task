@@ -1,0 +1,45 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 24px 48px;
+    border-radius: 20px;
+    border: #eaeaea 2px solid;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+}
+
+.inputs {
+    margin-top: 50px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 0 12px 0;
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 12px 24px;
+    border: #eaeaea 1px solid;
+    color: gray;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+}
